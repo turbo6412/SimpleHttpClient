@@ -11,7 +11,7 @@ class ObjDetailSectionGenerator(val ctx: Context) {
         // adding the "paper" sizes for LinearLayout Object properties (parent of paper is screen)
         layoutObj = LinearLayout(ctx)
         val lParams = ViewGroup.LayoutParams(
-            ViewGroup.LayoutParams.MATCH_PARENT,    // width
+            ViewGroup.LayoutParams.MATCH_PARENT,    //width
             ViewGroup.LayoutParams.WRAP_CONTENT)    // height
         layoutObj.layoutParams = lParams
         // vertical because we want First name on one line, Last name next line, SSN next line
